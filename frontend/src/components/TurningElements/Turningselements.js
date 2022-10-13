@@ -1,4 +1,5 @@
 import drehmoment2 from "../../images/drehmoment2.png";
+//import drehmoment2 from '../../../public/images/drehmoment2.png'
 import "./TurningElements.scss";
 import { useState, useEffect } from "react";
 
