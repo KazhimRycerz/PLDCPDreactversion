@@ -24,17 +24,17 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/About_profession">
+                <Link to="/abouttheprofession">
                   <span className="C">C</span> my Profession
                 </Link>
               </li>
               <li>
-                <Link to="/About_PLDCPD">
+                <Link to="/aboutpldcpd">
                   <span className="C">C</span> PLDCPD{" "}
                 </Link>
               </li>
               <li>
-                <Link to="/About_RYCERZ">
+                <Link to="/aboutrycerz">
                   <span className="C">C</span> RYCERZ{" "}
                 </Link>
               </li>
@@ -56,7 +56,7 @@ const Header = () => {
         <div id="header_myaccount">
           <ul>
             <li>
-              <Link to="/pldcpd_register"> register </Link>
+              <Link to="/RegisterLogin"> register </Link>
               <span className="C">C</span>
             </li>
             <li
@@ -69,7 +69,7 @@ const Header = () => {
               <span className="C">C</span>
             </li>
             <li className={loggedIn ? "" : "user"}>
-              <Link to="/pldcpd_account">
+              <Link to="/RegisterLogin">
                 {" "}
                 logged in as Joachim Ritter <span className="C">C</span>
               </Link>
@@ -100,8 +100,8 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/404" className="closebtn">
-                <span className="C">C</span> lerning
+              <NavLink to="/abouttheprofession" className="closebtn">
+                <span className="C">C</span> the profession
               </NavLink>
             </li>
             <li>

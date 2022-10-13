@@ -1,14 +1,14 @@
 import Header from '../../components/Header/Header.js'
 import Footer from '../../components/Footer/Footer.js'
-import './Page404.scss'
+import './CareerPlanning.scss'
 
-const Page404 = () => {
+const CareerPlanning = () => {
   return (
     <>
       <Header />
-      <main id="vnullvMain">
+      <main id="CareerPlanningMain">
         <h1 id="digitaleBaustelle">
-          The page you are looking for is not existing. But we are working continiously to develop the site
+          This is the buildingsite for your personal careerplanning.
         </h1>
       </main>
       <Footer />
@@ -16,4 +16,4 @@ const Page404 = () => {
   )
 };
 
-export default Page404;
+export default CareerPlanning;

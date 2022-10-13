@@ -1,14 +1,14 @@
 import Header from '../../components/Header/Header.js'
 import Footer from '../../components/Footer/Footer.js'
-import './Page404.scss'
+import './RegisterLogin.scss'
 
-const Page404 = () => {
+const RegisterLogin = () => {
   return (
     <>
       <Header />
-      <main id="vnullvMain">
+      <main id="RegisterLoginMain">
         <h1 id="digitaleBaustelle">
-          The page you are looking for is not existing. But we are working continiously to develop the site
+          This is the buildingsite for the register and login page.
         </h1>
       </main>
       <Footer />
@@ -16,4 +16,4 @@ const Page404 = () => {
   )
 };
 
-export default Page404;
+export default RegisterLogin;

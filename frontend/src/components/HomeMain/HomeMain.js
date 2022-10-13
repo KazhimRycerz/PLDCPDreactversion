@@ -15,7 +15,7 @@ const HomeMain = () => {
           Lichtdesigner. Hier können Sie Ihre Karriere planen und kontinuierlich
           prüfen, welchen Status Sie erreicht haben. Auch geben wir Ihnen
           Hinweise auf neue Themen und Learnmöglichkeiten und welchen Abschluss{" "}
-          <Link to="/abouttheprofession">
+          <Link to="/careerplanning">
             <i className="fa-solid fa-graduation-cap"></i>
           </Link>{" "}
           Sie erzielen können. <Link to="/abouttheprofession"> More </Link>
