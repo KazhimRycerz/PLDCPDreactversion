@@ -32,7 +32,6 @@ const TurningElements = () => {
     };
   }, []);
   return (
-    //if then
     <div className="drehmoment" onMouseEnter>
       <img src={drehmoment2} id="r1" className="rotate" alt="" />
       <img src={drehmoment2} id="r2" className="rotate" alt="" />
