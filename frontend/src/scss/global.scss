@@ -30,7 +30,7 @@
   top: 3px;
   /* bottom: -0.14em; */
   text-decoration:none;
-  cursor: url(../../public/images/point.png);
+  cursor: url(../images/point.png);
 }
 
 .Calli {
@@ -67,7 +67,7 @@
 body {
   margin: 0;
   background-color: rgb(80, 0,0);
-  background-image: url(../../public/images/Wallpaper_07_cpd_dark.PNG);
+  background-image: url(../images/Wallpaper_07_cpd_dark.PNG);
   background-size: 100vw;
   background-repeat:repeat-y;
   background-attachment: fixed;
@@ -397,7 +397,7 @@ header {
       transition: 0.3s ease-in-out;
     }
     #navPromo {
-      background-image: url(../../public/images/Sonnenuntergang.jpg);
+      background-image: url(../images/Sonnenuntergang.jpg);
       background-size: cover;
       background-position: center 300px;
       p {

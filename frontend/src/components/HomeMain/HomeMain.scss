@@ -2,7 +2,7 @@
 
 
 #Gruß_main {
-   background-image: url(../../../public/images/Sonnenuntergang.jpg);
+   background-image: url(../../images/Sonnenuntergang.jpg);
    background-size:cover;
    background-repeat: no-repeat;
    background-position:  60% ;
@@ -13,7 +13,7 @@
    position:relative;
    border-radius: 20px 20px 0 0;
    &:hover {
-     background-image: url(../../../public/images/Sonnenuntergang_dark.jpg);
+     background-image: url(../../images/Sonnenuntergang_dark.jpg);
    }
    h1 {
      display:inline-block;
@@ -195,7 +195,7 @@
  #Promoter_1 {
    width: 100vw;
    height: 110vh;
-   background-image: url(../../../public/images/JohannesMikkelsen4.jpg);
+   background-image: url(../../images/JohannesMikkelsen4.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position-y: 0px;
