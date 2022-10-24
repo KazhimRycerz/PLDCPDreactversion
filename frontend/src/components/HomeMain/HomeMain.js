@@ -1,5 +1,23 @@
 import "./HomeMain.scss";
 import { Link } from "react-router-dom";
+import Level_4_SLD from "../../images/Level_4_SLD.jpg"
+import C from "../../images/C.png"
+import level_1_SLD from "../../images/Level_1_SLD.jpg"
+import level_2_NQLD from "../../images/Level_2_NQLD.jpg"
+import level_3_JLD from "../../images/Level_3_JLD.jpg"
+import level_4_SLD from "../../images/Level_4_SLD.jpg"
+import level_5_senior from "../../images/level_5_senior.jpg"
+import level_6_associate from "../../images/level_6_associate.jpg"
+import level_7_principal from "../../images/level_7_principal.jpg"
+import level_8_master from "../../images/level_8_master.jpg"
+import level_9_authorised_expert from "../../images/level_9_authorised_expert.jpg"
+import vulkan from "../../images/Vulkan.gif"
+import Egon_Zitter_7 from "../../images/Egon_Zitter_7.jpg"
+import Egon_Zitter_8_Libellen from "../../images/Egon_Zitter_8_Libellen.jpg"
+import Sonnenuntergang from "../../images/Sonnenuntergang.jpg"
+import unsplash from "../../images/unsplash.jpg"
+
+
 
 const HomeMain = () => {
   return (
@@ -25,7 +43,7 @@ const HomeMain = () => {
       <div id="Content">
         <section id="C1">
           <article id="C1A1">
-            <img src="./images/Level_4_SLD.jpg" />
+            <img src={Level_4_SLD} alt=""/>
             <h3>Professionalität</h3>
             <p>
               Sie wollen ein anerkannter Lichtdesigner werden? Dann sind Sie
@@ -37,7 +55,7 @@ const HomeMain = () => {
             </p>
             <Link to="/planninyourcareer">
               {" "}
-              More <img src="./images/c.png" />
+              More <img src={C} alt=""/>
             </Link>
           </article>
 
@@ -50,7 +68,7 @@ const HomeMain = () => {
               </p>{" "}
               <Link to="/abouttheprofession">
                 hier
-                <img src="./images/c.png" />
+                <img src={C} alt=""/>
               </Link>
             </article>
 
@@ -63,7 +81,7 @@ const HomeMain = () => {
               </p>{" "}
               <Link to="/abouttheprofession">
                 hier
-                <img src="./images/c.png" />
+                <img src={C} alt=""/>
               </Link>
             </article>
           </div>
@@ -80,9 +98,9 @@ const HomeMain = () => {
             </p>
             <Link to="/abouttheprofession"> More </Link>
             <br />
-            <img src="images/level_5_senior.jpg" />
+            <img src={level_5_senior} alt=""/>
             <Link to="/planningyourcareer">
-              <img src="./images/c.png" />
+            <img src={C} alt=""/>
             </Link>
           </article>
         </section>
@@ -95,7 +113,7 @@ const HomeMain = () => {
               im Detail, was zur weiterbildung angeboten wird.
             </p>
             <Link to="/#">
-              <img src="./images/c.png" className="logo_cpd" />
+            <img src={C} alt="" className="logo_cpd" />
             </Link>
           </div>
 
@@ -113,7 +131,7 @@ const HomeMain = () => {
                   C
                 </Link>
               </p>
-              <img src="./images/Vulkan.GIF" />
+              <img src={vulkan} alt="" />
             </div>
 
             <div>
@@ -129,7 +147,7 @@ const HomeMain = () => {
                   C
                 </Link>
               </p>
-              <img src="./images/Egon Zitter 7.jpg" />
+              <img src={Egon_Zitter_7} alt="" />
             </div>
 
             <div>
@@ -144,7 +162,7 @@ const HomeMain = () => {
                   C
                 </Link>
               </p>
-              <img src="./images/Egon Zitter 8 Libellen.JPG" />
+              <img src={Egon_Zitter_8_Libellen} alt="" />
             </div>
 
             <div>
@@ -159,7 +177,7 @@ const HomeMain = () => {
                   C
                 </Link>
               </p>
-              <img src="./images/Sonnenuntergang.jpg" />
+              <img src={Sonnenuntergang} alt="" />
             </div>
 
             <div>
@@ -174,12 +192,12 @@ const HomeMain = () => {
                   C
                 </Link>
               </p>
-              <img src="./images/unsplash.jpg" />
+              <img src={unsplash} alt="" />
             </div>
           </div>
         </section>
         <Link to="/home">
-          <img className="Trenner" src="./images/c.png" />
+          <img className="Trenner" src={C} alt="" />
         </Link>
         <div id="Promoter_1">
           <div>
@@ -187,7 +205,7 @@ const HomeMain = () => {
           </div>
         </div>
         <Link to="/home">
-          <img className="Trenner" src="./images/c.png" />
+          <img className="Trenner" src={C} alt="" />
         </Link>
         <section id="learningbox_2">
           <div className="infobox_intro">
@@ -198,7 +216,7 @@ const HomeMain = () => {
               im Detail, was zur Weiterbildung angeboten wird.
             </p>
             <Link to="/#">
-              <img src="./images/c.png" className="logo_cpd" />
+              <img src={C} alt="" className="logo_cpd" />
             </Link>
           </div>
 
@@ -249,8 +267,7 @@ const HomeMain = () => {
                     <td>4-5</td>
                     <td>Artikel</td>
                     <td>
-                      <img src="./images/c.png" />
-                      <Link to="/https://pld-m.com" target="_blank"></Link>
+                      <Link to="/https://pld-m.com" target="_blank" className="C">C</Link>
                     </td>
                   </tr>
                   <tr>
@@ -261,8 +278,7 @@ const HomeMain = () => {
                     <td>2-5</td>
                     <td>Onlineseminar</td>
                     <td>
-                      <img src="./images/c.png" />
-                      <Link to="/https://pld-m.com" target="_blank"></Link>
+                      <Link to="/https://pld-m.com" target="_blank" className="C">C</Link>
                     </td>
                   </tr>
                   <tr>
@@ -273,8 +289,7 @@ const HomeMain = () => {
                     <td>6</td>
                     <td>Life-Seminar</td>
                     <td>
-                      <img src="./images/c.png" />
-                      <Link to="/https://pld-m.com" target="_blank"></Link>
+                    <Link to="/https://pld-m.com" target="_blank" className="C">C</Link>
                     </td>
                   </tr>
                   <tr>
@@ -285,8 +300,7 @@ const HomeMain = () => {
                     <td>4-5</td>
                     <td>Artikel</td>
                     <td>
-                      <img src="./images/c.png" />
-                      <Link to="/https://pld-m.com" target="_blank"></Link>
+                    <Link to="/https://pld-m.com" target="_blank" className="C">C</Link>
                     </td>
                   </tr>
                   <tr>
@@ -297,8 +311,7 @@ const HomeMain = () => {
                     <td>4-5</td>
                     <td>Artikel</td>
                     <td>
-                      <img src="./images/c.png" />
-                      <Link to="/https://pld-m.com" target="_blank"></Link>
+                    <Link to="/https://pld-m.com" target="_blank" className="C">C</Link>
                     </td>
                   </tr>
                   <tr>
@@ -309,8 +322,7 @@ const HomeMain = () => {
                     <td>4-5</td>
                     <td>Artikel</td>
                     <td>
-                      <img src="./images/c.png" />
-                      <Link to="/https://pld-m.com" target="_blank"></Link>
+                    <Link to="/https://pld-m.com" target="_blank" className="C">C</Link>
                     </td>
                   </tr>
                   <tr>
@@ -321,8 +333,7 @@ const HomeMain = () => {
                     <td>4-5</td>
                     <td>Artikel</td>
                     <td>
-                      <img src="./images/c.png" />
-                      <Link to="/https://pld-m.com" target="_blank"></Link>
+                    <Link to="/https://pld-m.com" target="_blank" className="C">C</Link>
                     </td>
                   </tr>
                   <tr>
@@ -333,8 +344,7 @@ const HomeMain = () => {
                     <td>4-5</td>
                     <td>Artikel</td>
                     <td>
-                      <img src="./images/c.png" />
-                      <Link to="/home" target="_blank"></Link>
+                    <Link to="/https://pld-m.com" target="_blank" className="C">C</Link>
                     </td>
                   </tr>
                 </tbody>
@@ -348,7 +358,7 @@ const HomeMain = () => {
             </div>
 
             <div id="info_1_2">
-              <img src="./images/Egon Zitter 7.jpg" />
+              <img src={Egon_Zitter_7} alt="" />
               <h2>Special II</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
@@ -365,7 +375,7 @@ const HomeMain = () => {
           </div>
         </section>
         <Link to="/home">
-          <img className="Trenner" src="./images/c.png" />{" "}
+          <img className="Trenner" src={C} alt="" />{" "}
         </Link>
         <section id="infobox_2">
           <div className="infobox_intro">
@@ -375,7 +385,7 @@ const HomeMain = () => {
               Klicken Sie und schauen Sie im Detail, was angeboten wird.
             </p>
             <Link to="/home">
-              <img src="./images/c.png" className="logo_cpd" />
+              <img src={C} alt="" className="logo_cpd" />
             </Link>
           </div>
 
@@ -385,7 +395,7 @@ const HomeMain = () => {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Expedita nostrum voluptatibus, reiciendis!{" "}
-                <img src="./images/Vulkan.GIF" /> Dolorum nisi aspernatur unde
+                <img src={vulkan} alt="" /> Dolorum nisi aspernatur unde
                 est, magnam excepturi possimus.pariatur molestias accusamus
                 recusandae minima cum, animi, sapiente rem iste earum ipsum aut
                 ratione. Ad maiores corrupti magnam deleniti molestias aperiam
@@ -461,7 +471,7 @@ const HomeMain = () => {
         </section>
         <br />
         <br />
-        <img className="Trenner" src="./images/c.png" />{" "}
+        <img className="Trenner" src={C} alt="" />{" "}
         <Link to="/home"></Link>
         <br />
         <br />
@@ -479,7 +489,7 @@ const HomeMain = () => {
               angeboten wird.
             </p>
             <Link to="/home">
-              <img src="./images/c.png" className="logo_cpd" />
+              <img src={C} alt="" className="logo_cpd" />
             </Link>
           </div>
 
@@ -494,7 +504,7 @@ const HomeMain = () => {
                   Jahen definiert.
                 </p>
               </div>
-              <img src="./images/Level_1_SLD.jpg" />
+              <img src={level_1_SLD}alt="" />
             </div>
 
             <div id="learning_5_2">
@@ -507,7 +517,7 @@ const HomeMain = () => {
                   deleniti animi doloribus illum.
                 </p>
               </div>
-              <img src="./images/Level_2_NQLD.jpg" />
+              <img src={level_2_NQLD}alt="" />
             </div>
 
             <div id="learning_5_3">
@@ -520,7 +530,7 @@ const HomeMain = () => {
                   deleniti animi doloribus illum.
                 </p>
               </div>
-              <img src="./images/Level_3_JLD.jpg" />
+              <img src={level_3_JLD}alt="" />
             </div>
 
             <div id="learning_5_4">
@@ -533,7 +543,7 @@ const HomeMain = () => {
                   deleniti animi doloribus illum.
                 </p>
               </div>
-              <img src="./images/Level_4_SLD.jpg" />
+              <img src={level_4_SLD}alt="" />
             </div>
 
             <div id="learning_5_5">
@@ -546,7 +556,7 @@ const HomeMain = () => {
                   deleniti animi doloribus illum.
                 </p>
               </div>
-              <img src="./images/level_5_senior.jpg" />
+              <img src={level_5_senior}alt="" />
             </div>
 
             <div id="learning_5_6">
@@ -559,7 +569,7 @@ const HomeMain = () => {
                   deleniti animi doloribus illum.
                 </p>
               </div>
-              <img src="./images/level_6_associate.jpg" />
+              <img src={level_6_associate}alt="" />
             </div>
 
             <div id="learning_5_7">
@@ -572,7 +582,7 @@ const HomeMain = () => {
                   deleniti animi doloribus illum.
                 </p>
               </div>
-              <img src="./images/level_7_principal.jpg" />
+              <img src={level_7_principal} alt="" />
             </div>
 
             <div id="learning_5_8">
@@ -585,7 +595,7 @@ const HomeMain = () => {
                   deleniti animi doloribus illum.
                 </p>
               </div>
-              <img src="./images/level_8_master.jpg" />
+              <img src={level_8_master} alt="" />
             </div>
 
             <div id="learning_5_9">
@@ -598,7 +608,7 @@ const HomeMain = () => {
                   deleniti animi doloribus illum.
                 </p>
               </div>
-              <img src="./images/level_9_authorised_expert.jpg" />
+              <img src={level_9_authorised_expert} alt="" />
             </div>
           </div>
         </section>

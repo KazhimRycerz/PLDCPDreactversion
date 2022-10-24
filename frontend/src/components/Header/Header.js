@@ -2,6 +2,8 @@ import "./Header.scss";
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
 import { asideContext } from "../AccountAside/AccountAside.js";
+import pldcpd from "../../images/pldcpd.png";
+
 
 const Header = () => {
   const [showMenue, setShowMenue] = useState(false);
@@ -44,7 +46,7 @@ const Header = () => {
 
         <div className="text_header">
           <Link to="/home">
-            <img className="image_header" src="./images/pldcpd.png" alt="" />
+            <img className="image_header" src={pldcpd} alt="" />
           </Link>
 
           <p>
